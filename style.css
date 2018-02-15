@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@font-face {
+    font-family: 'myriad_set_probold';
+    src: url('../fonts/myriad-set-pro_bold-webfont.woff2') format('woff2'),
+         url('../fonts/myriad-set-pro_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'myriad_set_promedium';
+    src: url('../fonts/myriad-set-pro_medium-webfont.woff2') format('woff2'),
+         url('../fonts/myriad-set-pro_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'myriad_set_prosemibold';
+    src: url('../fonts/myriad-set-pro_semibold-webfont.woff2') format('woff2'),
+         url('../fonts/myriad-set-pro_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'myriad_set_protext';
+    src: url('../fonts/myriad-set-pro_text-webfont.woff2') format('woff2'),
+         url('../fonts/myriad-set-pro_text-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'myriad_set_prothin';
+    src: url('../apple/fonts/myriad-set-pro_thin-webfont.woff2') format('woff2'),
+         url('../apple/fonts/myriad-set-pro_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'myriad_set_proultralight';
+    src: url('../fonts/myriad-set-pro_ultralight-webfont.woff2') format('woff2'),
+         url('../fonts/myriad-set-pro_ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+  margin: 0;
+
+}
+
+header {
+background-color: black;
+color: white;
+height: 50px;
+width: 100%;
+margin: 0;
+}
+
+header ul {
+  font-family: 'myriad_set_prothin';
+  /*Utilisera  myriad-set-pro_thin-webfont.woff2*/
+padding-right: 100px;
+padding-left:100px;
+margin:0;
+align-items: center;
+display: flex;
+justify-content: space-around;
+}
+
+li{
+  list-style: none;
+}
+
+.main {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  height: 60%;
+}
+
+.pub{
+  width: 50%;
+}
+
+.pub img{
+position: relative;
+top: 15px;
+left: 140px;
+
+}
+
+.fa-play-circle{
+  height: 10px;
+  padding: 0;
+}
+
+.titre {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.titre .iphone{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+left: -90px;
+font-family: 'myriad_set_prothin';
+font-size: 42px;
+
+}
+
+.titre .iphone img{
+  width: 50%;
+  margin-bottom: -25px;
+}
+
+.titre .iphone p{
+  line-height: 30px;
+
+}
+
+.titre .iphone .link p{
+  margin-top: -20px;
+  font-size: 20px;
+
+font-family: 'myriad_set_prothin';
+  color: #0099cc;
+}
+
+
+.link {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.learn {
+  display: inline;
+  }
+.watch {
+  display: flex;
+  flex-direction: row;
+}
+.watch .fa-play-circle{
+margin-top: -13px;
+margin-left: -5px;
+color: #0099cc;;
+}
+
+
+.link p{
+font-size: 15px;
+}
+
+.produit{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+margin-bottom: 0;
+padding-bottom: 0px;
+position: relative;
+}
+
+.produit .proA{
+    background-image: url(images/watch_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20%;
+}
+
+.produit .proB{
+    background-image: url(images/ipad_pro_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+}
+.produit .proC{
+    background-image: url(images/accessories_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+}
+
+.produit .proD{
+  background-image: url(images/macbook_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30%;
+}
+
+.linkBis{
+  height: 20%;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'myriad_set_prothin';
+  position: relative;
+  margin-top: -50px;
+    color: #0099cc;
+}
+
+
+footer{
+  height: 450px;
+  background-color: #f2f2f2;
+}
+
+footer #last{
+
+font-size: 14px;
+}
+
+footer #last .table{
+display: flex;
+flex-disposition: row;
+  padding-left: 150px;
+}
+
+footer #last .liste1{
+  margin-left: 20px;
+}
+
+footer #last .table .liste1 ul{
+list-style: none;
+font-family: 'myriad_set_prothin';
+}
+
+footer #last .table .liste1 .titre_liste{
+font-weight: bold;
+}
+
+.liste2_3{
+  display: flex;
+  flex-direction: column;
+}
+footer #last .table .liste2 ul{
+list-style: none;
+font-family: 'myriad_set_prothin';
+}
+
+footer #last .table .liste2 .titre3 .titre_liste{
+font-weight: bold;
+}
+
+.creditgrand{
+  border-bottom: 0.6px solid grey;
+font-family: 'myriad_set_prothin';
+width: 900px;
+margin-left: 210px;
+font-size: 12px;
+
+}
+
+.credit .petit{
+width: 600px;
+
+
+}
+
+.credit{
+  font-family: 'myriad_set_prothin';
+  margin-left: 210px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.credit .petit ul{
+  align-items: flex-start;
+  display: flex;
+justify-content: space-between;
+padding-left: 0px;
+
+
+}
+
+.credit .petit li {
+  list-style: none;
+
+  padding-right: 20px;
+}
+
+.credit .petit li:not(:last-child){
+  border-right: 1px solid grey;
+}
+
+.usa {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: center;
+  padding-top: 11px;
+  display: inline;
+width: 150px;
+margin-top: -3px;
+padding-left: 220px;
+}
+
+.usa img{
+  height: 16px;
+  width: 16px;
+}
+
+.usa p{
+    display: inline;
+    padding-left: 6px;
+  margin-top: -5px;
+}
